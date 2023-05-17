@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   {% include 'head.html' %}
+</head>
+
+<body>
+	<div class="wrapper">
+
+	    <!-- Sidebar  -->
+        {% include 'sidebar.html' %}
+
+        <!-- Page Content  -->
+        <div id="content">
+            <div class="title-content">
+                <h1 class="title-bar">Penilaian</h1>
+            </div>
+			<!-- Nav tabs -->
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="petunjuk-tab" data-bs-toggle="tab" data-bs-target="#petunjuk" type="button" role="tab" aria-controls="petunjuk" aria-selected="true">Petunjuk</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="penilaian-tab" data-bs-toggle="tab" data-bs-target="#penilaian" type="button" role="tab" aria-controls="penilaian" aria-selected="true">Penilaian</button>
+                </li>
+            </ul>
+			<!-- Tab panes -->
+			<div class="tab-content">
+				<div class="tab-pane active" id="petunjuk" role="tabpanel" aria-labelledby="petunjuk-tab">
+					<hr>
+					<h4>Penjelasan Fitur</h4>
+					<table class="table">
+                        <tbody>
+                            <tr>
+                                <td>Flavor</td>
+                                <td>:</td>
+                                <td>Kombinasi karakter rasa yang ada seperti rasa sweet, sour, bitter, salty, pungent dengan aroma yang ada pada kopi.</td>
+                            </tr>
+                            <tr>
+                                <td>Balance</td>
+                                <td>:</td>
+                                <td>Keharmonis rasa kopi yang dirasakan oleh cupper, apakah ada yang berlebihan dari karakter rasa, ataukah ada yang hilang dari keseimbangan rasa kopi.</td>
+                            </tr>
+                            <tr>
+                                <td>Acidity</td>
+                                <td>:</td>
+                                <td>Keasaman yang ada pada kopi, apakah itu asam yang bersahabat ataupun tidak bersahabat. Namun scoring pada acidity ada sedikit perbedaan, bukan hanya scoring tapi ada pada tingkatan apa acidity tersebut, high acidity, medium acidity atau low Acidity.</td>
+                            </tr>
+                            <tr>
+                                <td>Cupper point </td>
+                                <td>:</td>
+                                <td>Penilaian yang diberi dari para cupper.</td>
+                            </tr>
+                            <tr>
+                                <td>Aroma</td>
+                                <td>:</td>
+                                <td>Sisi aromatik dari biji kopi yang sudah digiling saat dibasahi oleh air panas.</td>
+                            </tr>
+                            <tr>
+                                <td>Body</td>
+                                <td>:</td>
+                                <td>Tekstur kekentalan saat kopi berada dalam mulut. Apakah nyaman dimulut, atau tidak nyaman sama sekali.</td>
+                            </tr>
+                            <tr>
+                                <td>Uniformity</td>
+                                <td>:</td>
+                                <td>konsistensi rasa yang ada pada kopi saat cupping di beberapa cup, apakah karakter rasa diantara cup yang banyak memiliki rasa yang berbeda atau tidak.</td>
+                            </tr>
+                            <tr>
+                                <td>Clean cup</td>
+                                <td>:</td>
+                                <td>Tingkat kebersihan karakter rasa, yang mana dari mulai menyesapnya hingga aftertaste apakah ada rasa lain yang mengganggu.</td>
+                            </tr>
+                            <tr>
+                                <td>Sweetness</td>
+                                <td>:</td>
+                                <td>Sensasi manis di sini bukan seperti sensasi manis gula yang sangat jelas, walaupun samar pada kopi tetap ada sensasi manis yang muncul.</td>
+                            </tr>
+                            <tr>
+                                <td>Category two defects</td>
+                                <td>:</td>
+                                <td>Mencakup parchment, hull/husk, broken/chipped, insect damage, partial black or sour, shell, small sticks or stones, water damage.</td>
+                            </tr>
+                            <tr>
+                                <td>Aftertaste</td>
+                                <td>:</td>
+                                <td>Lama durasi yang singgah, bagaimana konsistensi rasa yang tertinggal di mulut. Apakah sangat jelas, atau terlalu cepat.</td>
+                            </tr>
+                        </tbody>
+                      </table>
+
+				</div>
+				<div class="tab-pane" id="penilaian" role="tabpanel" aria-labelledby="penilaian-tab">
+					<hr>
+					<h4>Form Penilaian</h4>
+					<form action="{{ url_for('predict')}}" enctype="multipart/form-data" method="POST">
+				        <div class="row mt-3">
+				            <div class="form-group col-lg-3">
+				            <label for="Flavor">Flavor(1-100)</label>
+				              <input
+				                type="text"
+				                name="Flavor"
+				                class="form-control"
+				                placeholder="Flavor"
+				                required="required"
+				              />
+				            </div>
+				            <div class="form-group col-lg-3">
+				            <label for="Balance">Balance(1-100)</label>
+					            <div class="form-group">
+					              <input
+					                type="text"
+					                name="Balance"
+					                class="form-control"
+					                placeholder="Balance"
+					                required="required"
+					              />
+					            </div>
+					        </div>
+				            <div class="form-group col-lg-3">
+				            <label for="Acidity">Acidity(1-100)</label>
+				              <input
+				                type="text"
+				                name="Acidity"
+				                class="form-control"
+				                placeholder="Acidity"
+				                required="required"
+				              />
+				            </div>
+				            <div class="form-group col-lg-3">
+				            <label for="Cupper.Points">Cupper Points(1-100)</label>
+					            <div class="form-group">
+									<input
+									type="text"
+									name="Cupper.Points"
+									class="form-control"
+									placeholder="Cupper.Points"
+									required="required"
+									/>
+					        	</div>
+				            </div>
+				            <div class="form-group col-lg-3">
+				            <label for="Aroma">Aroma(1-100)</label>
+				              <input
+				                type="text"
+				                name="Aroma"
+				                class="form-control"
+				                placeholder="Aroma"
+				                required="required"
+				              />
+				            </div>
+				            <div class="form-group col-lg-3">
+				            <label for="Body">Body(1-100)</label>
+					        	<div class="form-group">
+					              <input
+					                type="text"
+					                name="Body"
+					                class="form-control"
+					                placeholder="Body"
+					                required="required"
+					              />
+					        	</div>
+				            </div>
+				            <div class="form-group col-lg-3">
+				            <label for="Uniformity">Uniformity(1-100)</label>
+				              <input
+				                type="text"
+				                name="Uniformity"
+				                class="form-control"
+				                placeholder="Uniformity"
+				                required="required"
+				              />
+				            </div>
+				            <div class="form-group col-lg-3">
+				            <label for="Clean.Cup">Clean Cup(1-100)</label>
+				              <input
+				                type="text"
+				                name="Clean.Cup"
+				                class="form-control"
+				                placeholder="Clean.Cup"
+				                required="required"
+				              />
+				            </div>
+				            <div class="form-group col-lg-3">
+				            <label for="Sweetness">Sweetness(1-100)</label>
+				              <input
+				                type="text"
+				                name="Sweetness"
+				                class="form-control"
+				                placeholder="Sweetness"
+				                required="required"
+				              />
+				            </div>
+				            <div class="form-group col-lg-3">
+				            <label for="Category.Two.Defects">Category Two Defects(0,1,2,..)</label>
+				              <input
+				                type="text"
+				                name="Category.Two.Defects"
+				                class="form-control"
+				                placeholder="Category.Two.Defects"
+				                required="required"
+				              />
+				            </div>
+				            <div class="form-group col-lg-3">
+				            <label for="Aftertaste">Aftertaste(1-100)</label>
+				              <input
+				                type="text"
+				                name="Aftertaste"
+				                class="form-control"
+				                placeholder="Aftertaste"
+				                required="required"
+				              />
+				            </div>
+							<div class="form-group mt-3">
+								<button type="submit" class="btn btn-primary btn-block btn-large">
+					              Predict
+					            </button>
+							</div>
+							<div id="hasil" class="class="col-md-6""><br>
+								<h4>Hasil Penilaian Biji Kopi</h4>
+								<hr>
+								<p style="font-size:130%;"><i>Total Cup Point</i> : {{ prediction_text }}</span></p>
+								<hr>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	 <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+    
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+        $(document).ready(function () {
+            $('#dataTablePag').DataTable();
+        });
+    </script>
+
+    
+</body>
+
+</html>

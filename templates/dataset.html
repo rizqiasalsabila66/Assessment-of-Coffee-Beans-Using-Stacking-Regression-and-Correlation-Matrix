@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   {% include 'head.html' %}
+</head>
+
+<body>
+    <div class="wrapper">
+        
+        <!-- Sidebar  -->
+        {% include 'sidebar.html' %}
+
+        <!-- Page Content  -->  
+        <div id="content">
+            <div class="title-content">
+                <h1 class="title-bar">Dataset</h1>
+            </div>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="desc-tab" data-bs-toggle="tab" data-bs-target="#desc" type="button" role="tab" aria-controls="desc" aria-selected="true">Deskripsi</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="data-tab" data-bs-toggle="tab" data-bs-target="#data" type="button" role="tab" aria-controls="data" aria-selected="false">Raw Dataset</button>
+                </li>
+            </ul>
+            
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="desc" role="tabpanel" aria-labelledby="desc-tab">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>Dataset Name</td>
+                                <td>:</td>
+                                <td>Coffee Quality database</td>
+                            </tr>
+                            <tr>
+                                <td>Source</td>
+                                <td>:</td>
+                                <td>Kaggle.com</td>
+                            </tr>
+                            <tr>
+                                <td>Dataset Information</td>
+                                <td>:</td>
+                                <td>Dataset ini dikumpulkan pada bulan Januari 2018 oleh Coffee Quality Institute (CQI). Dataset ini memiliki 1339 data dengan 43 atribut, yaitu <i>Species, Owner, Country.of.Origin, Farm.Name, Lot.Number, Mill, ICO.Number, Company, Altitude, Region, Producer, Number.of.Bags, Bag.Weight, In.Country.Partner, Harvest.Year, Grading.Date, Owner.1, Variety, Processing.Method, Aroma, Flavor, Aftertaste, Acidity, Body, Balance, Uniformity, Clean.Cup, Sweetness, Cupper.Points, Total.Cup.Points, Moisture, Category.One.Defects, Quakers, Color, Category.Two.Defects, Expiration, Certification.Body, Certification.Address, Certification.Contact, unit_of_measurement, altitude_low_meters, altitude_high_meters, altitude_mean_meters.</i></td>
+                            </tr>
+                        </tbody>
+                      </table>
+                </div>
+                <div class="tab-pane" id="data" role="tabpanel" aria-labelledby="data-tab">
+                    <br>
+                    <table class="table" id="dataTablePag">
+                        <thead class="text-center">
+                            <tr>                        
+                                <th>No.</th>
+                                <th>Species</th>
+                                <th>Owner</th>
+                                <th>Country.of.Origin</th>
+                                <th>Farm.Name</th>
+                                <th>Lot.Number</th>
+                                <th>Mill</th>
+                                <th>ICO.Number</th>
+                                <th>Company</th>
+                                <th>Altitude</th>
+                                <th>Region</th>
+                                <th>Producer</th>
+                                <th>Number.of.Bags</th>
+                                <th>Bag.Weight</th>
+                                <th>In.Country.Partner</th>
+                                <th>Harvest.Year</th>
+                                <th>Grading.Date</th>
+                                <th>Owner.1</th>
+                                <th>Variety</th>
+                                <th>Processing.Method</th>
+                                <th>Aroma</th>
+                                <th>Flavor</th>
+                                <th>Aftertaste</th>
+                                <th>Acidity</th>
+                                <th>Body</th>
+                                <th>Balance</th>
+                                <th>Uniformity</th>
+                                <th>Clean.Cup</th>
+                                <th>Sweetness</th>
+                                <th>Cupper.Point</th>
+                                <th>Total.Cup.Points</th>
+                                <th>Moisture</th>
+                                <th>Categoty.One.Defects</th>
+                                <th>Quakers</th>
+                                <th>Color</th>
+                                <th>Categoty.Two.Defects</th>
+                                <th>Expiration</th>
+                                <th>Certification.Body</th>
+                                <th>Certification.Address</th>
+                                <th>Certification.Contact</th>
+                                <th>Unit_of_measurement</th>
+                                <th>Altitude_low_meters</th>
+                                <th>Altitude_high_meters</th>
+                                <th>Altitude_mean_meters</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <!-- call for data -->
+                            {% for i in range(n_dataset): %}
+                            <tr>
+                                <th>{{ i+1 }}</th>
+                                <td>{{ raw_data.iloc[i,2] }}</td>
+                                <td>{{ raw_data.iloc[i,3] }}</td>
+                                <td>{{ raw_data.iloc[i,4] }}</td>
+                                <td>{{ raw_data.iloc[i,5] }}</td>
+                                <td>{{ raw_data.iloc[i,6] }}</td>
+                                <td>{{ raw_data.iloc[i,7] }}</td>
+                                <td>{{ raw_data.iloc[i,8] }}</td>
+                                <td>{{ raw_data.iloc[i,9] }}</td>
+                                <td>{{ raw_data.iloc[i,10] }}</td>
+                                <td>{{ raw_data.iloc[i,11] }}</td>
+                                <td>{{ raw_data.iloc[i,12] }}</td>
+                                <td>{{ raw_data.iloc[i,13] }}</td>
+                                <td>{{ raw_data.iloc[i,14] }}</td>
+                                <td>{{ raw_data.iloc[i,15] }}</td>
+                                <td>{{ raw_data.iloc[i,16] }}</td>
+                                <td>{{ raw_data.iloc[i,17] }}</td>
+                                <td>{{ raw_data.iloc[i,18] }}</td>
+                                <td>{{ raw_data.iloc[i,19] }}</td>
+                                <td>{{ raw_data.iloc[i,20] }}</td>
+                                <td>{{ raw_data.iloc[i,21] }}</td>
+                                <td>{{ raw_data.iloc[i,22] }}</td>
+                                <td>{{ raw_data.iloc[i,23] }}</td>
+                                <td>{{ raw_data.iloc[i,24] }}</td>
+                                <td>{{ raw_data.iloc[i,25] }}</td>
+                                <td>{{ raw_data.iloc[i,26] }}</td>
+                                <td>{{ raw_data.iloc[i,27] }}</td>
+                                <td>{{ raw_data.iloc[i,28] }}</td>
+                                <td>{{ raw_data.iloc[i,29] }}</td>
+                                <td>{{ raw_data.iloc[i,30] }}</td>
+                                <td>{{ raw_data.iloc[i,31] }}</td>
+                                <td>{{ raw_data.iloc[i,32] }}</td>
+                                <td>{{ raw_data.iloc[i,33] }}</td>
+                                <td>{{ raw_data.iloc[i,34] }}</td>
+                                <td>{{ raw_data.iloc[i,35] }}</td>
+                                <td>{{ raw_data.iloc[i,36] }}</td>
+                                <td>{{ raw_data.iloc[i,37] }}</td>
+                                <td>{{ raw_data.iloc[i,38] }}</td>
+                                <td>{{ raw_data.iloc[i,39] }}</td>
+                                <td>{{ raw_data.iloc[i,40] }}</td>
+                                <td>{{ raw_data.iloc[i,41] }}</td>
+                                <td>{{ raw_data.iloc[i,42] }}</td> 
+                                <td>{{ raw_data.iloc[i,43] }}</td>
+                                <td>{{ raw_data.iloc[i,44] }}</td>
+                                <td>{{ raw_data.iloc[i,45] }}</td>   
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                      </table> 
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+    
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+        $(document).ready(function () {
+            $('#dataTablePag').DataTable();
+        });
+    </script>
+
+    
+</body>
+
+</html>

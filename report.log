@@ -1,0 +1,1016 @@
+2023-01-20 14:31:52,053 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 14:31:52,054 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 14:31:52,062 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 14:31:54,049 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 14:31:54,051 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 14:32:10,981 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:32:10] "GET / HTTP/1.1" 200 -
+2023-01-20 14:32:11,230 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:32:11] "GET /static/images/logo_unnes.png HTTP/1.1" 200 -
+2023-01-20 14:32:11,244 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:32:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-01-20 14:32:18,400 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:32:18] "GET /home HTTP/1.1" 200 -
+2023-01-20 14:32:18,424 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:32:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 14:32:18,428 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:32:18] "[36mGET /static/images/logo_unnes.png HTTP/1.1[0m" 304 -
+2023-01-20 14:32:19,843 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:32:19] "GET /upload HTTP/1.1" 200 -
+2023-01-20 14:32:19,863 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:32:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 14:32:25,533 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:32:25] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 14:32:25,557 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:32:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 14:32:46,644 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:32:46] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-20 14:32:46,674 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:32:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 14:32:59,962 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:32:59] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 14:32:59,994 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:32:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 14:35:22,074 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:35:22] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 14:35:22,093 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:35:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 14:35:28,028 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 1.49, 'c2': 1.49, 'w': 0.72, 'k': 30, 'p': 3}
+2023-01-20 14:35:59,051 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.16900000000000004, best pos: [1 1 1 1 0 1 1 1]
+2023-01-20 14:35:59,083 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:35:59] "GET /accuration HTTP/1.1" 200 -
+2023-01-20 14:35:59,100 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 14:35:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:19:30,852 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 1.49, 'c2': 1.49, 'w': 0.72, 'k': 30, 'p': 3}
+2023-01-20 15:20:00,141 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.16900000000000004, best pos: [1 1 1 1 0 1 1 1]
+2023-01-20 15:20:00,152 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:20:00] "GET /accuration HTTP/1.1" 200 -
+2023-01-20 15:20:00,169 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:20:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:24:50,746 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:24:50] "GET /upload HTTP/1.1" 200 -
+2023-01-20 15:24:50,765 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:24:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:24:57,111 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:24:57] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 15:24:57,133 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:24:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:25:01,404 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:25:01] "GET /upload HTTP/1.1" 200 -
+2023-01-20 15:25:01,420 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:25:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:25:04,486 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:25:04] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 15:25:04,508 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:25:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:25:57,866 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:25:57] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-20 15:25:57,893 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:25:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:26:13,618 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:26:13] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 15:26:13,638 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:26:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:26:17,835 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:26:17] "GET /upload HTTP/1.1" 200 -
+2023-01-20 15:26:17,853 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:26:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:26:21,514 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:26:21] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-20 15:26:21,537 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:26:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:33:58,487 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:33:58] "GET /upload HTTP/1.1" 200 -
+2023-01-20 15:33:58,502 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:33:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:34:00,080 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:34:00] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 15:34:00,099 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:34:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:35:32,556 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\app.py', reloading
+2023-01-20 15:35:32,558 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\app.py', reloading
+2023-01-20 15:35:34,868 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 15:35:34,868 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 15:35:34,877 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 15:35:36,831 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 15:35:36,833 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 15:35:45,969 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\flask\\app.py', reloading
+2023-01-20 15:35:45,980 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\pandas\\util\\_decorators.py', reloading
+2023-01-20 15:35:45,993 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\pandas\\io\\parsers\\readers.py', reloading
+2023-01-20 15:35:46,000 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\pandas\\io\\parsers\\c_parser_wrapper.py', reloading
+2023-01-20 15:35:46,039 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:35:46] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 15:35:46,280 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:35:46] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:35:46,296 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:35:46] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 15:35:46,338 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:35:46] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 15:35:46,366 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:35:46] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 15:35:46,876 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 15:35:48,755 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 15:35:48,757 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 15:37:12,396 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\app.py', reloading
+2023-01-20 15:37:12,397 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\app.py', reloading
+2023-01-20 15:37:29,049 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 15:37:29,049 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 15:37:29,116 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 15:37:31,360 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 15:37:31,363 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 15:40:31,349 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 15:40:31,349 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 15:40:31,357 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 15:40:33,460 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 15:40:33,462 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 15:40:33,623 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2023-01-20 15:40:34,375 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:40:34] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 15:40:34,556 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:40:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:40:35,700 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 15:40:37,899 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 15:40:37,901 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 15:42:53,078 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 15:42:53,078 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 15:42:53,087 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 15:42:55,613 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 15:42:55,615 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 15:42:56,446 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:42:56] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 15:42:56,607 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:42:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:43:10,164 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:43:10] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 15:43:10,212 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:43:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:43:12,625 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:43:12] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-20 15:43:12,652 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:43:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:44:58,577 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 15:44:58,577 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 15:44:58,585 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 15:45:00,868 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 15:45:00,874 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 15:45:01,357 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:45:01] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 15:45:01,503 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:45:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:46:51,831 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 15:46:51,831 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 15:46:51,840 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 15:46:54,316 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 15:46:54,318 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 15:46:54,451 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:46:54] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 15:46:54,600 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:46:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 15:47:40,131 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 15:47:40,131 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 15:47:40,141 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 15:47:42,730 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 15:47:42,733 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 15:47:43,861 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:47:43] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 15:47:44,012 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 15:47:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:05:54,238 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 16:05:54,239 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 16:05:54,248 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 16:05:56,546 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 16:05:56,549 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 16:06:01,104 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:06:01] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:06:01,339 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:06:01] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:06:01,369 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:06:01] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:06:01,387 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:06:01] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:06:01,403 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:06:01] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:06:42,271 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 16:06:42,272 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 16:06:42,280 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 16:06:44,403 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 16:06:44,407 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 16:06:48,975 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:06:48] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:06:49,196 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:06:49] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:06:49,211 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:06:49] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:06:49,222 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:06:49] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:06:49,243 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:06:49] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:10:28,216 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:28] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:10:28,232 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:28] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:10:28,237 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:28] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:10:28,252 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:28] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:10:28,268 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:28] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:10:28,866 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:28] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:10:28,883 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:28] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:10:28,886 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:28] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:10:28,904 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:28] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:10:28,920 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:28] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:10:29,385 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:29] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:10:29,399 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:29] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:10:29,403 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:29] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:10:29,430 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:29] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:10:29,444 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:29] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:10:29,704 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:29] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:10:29,721 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:29] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:10:29,724 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:29] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:10:29,736 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:29] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:10:29,749 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:29] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:10:30,301 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:30] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:10:30,319 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:30] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:10:30,321 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:30] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:10:30,340 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:30] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:10:30,356 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:10:30] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:11:32,863 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 16:11:32,864 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 16:11:32,872 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 16:11:35,102 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 16:11:35,104 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 16:11:35,238 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:11:35] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:11:35,447 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:11:35] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:11:35,457 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:11:35] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:11:35,469 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:11:35] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:11:35,485 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:11:35] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:11:36,921 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:11:36] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:11:36,940 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:11:36] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:11:36,943 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:11:36] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:11:36,956 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:11:36] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:11:36,980 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:11:36] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:15:22,141 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 16:15:22,141 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 16:15:22,148 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 16:15:24,318 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 16:15:24,321 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 16:15:29,973 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:15:29] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:15:30,204 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:15:30] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:15:30,217 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:15:30] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:15:30,231 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:15:30] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:15:30,249 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:15:30] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:15:34,948 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:15:34] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:15:34,963 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:15:34] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:15:34,967 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:15:34] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:15:34,982 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:15:34] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:15:35,004 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:15:35] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:16:34,009 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 16:16:34,010 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 16:16:34,018 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 16:16:35,942 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 16:16:35,945 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 16:16:39,476 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:39] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:16:39,670 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:39] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:16:39,694 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:39] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:16:39,709 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:39] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:16:39,726 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:39] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:16:41,493 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:41] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:16:41,513 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:41] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:16:41,517 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:41] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:16:41,530 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:41] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:16:41,548 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:41] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:16:44,422 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:44] "GET / HTTP/1.1" 200 -
+2023-01-20 16:16:44,455 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:16:44,476 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:44] "[36mGET /static/images/logo_unnes.png HTTP/1.1[0m" 304 -
+2023-01-20 16:16:46,425 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:46] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:16:46,450 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:46] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:16:46,454 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:46] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:16:46,500 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:16:46] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:17:18,357 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 16:17:18,357 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 16:17:18,365 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 16:17:20,345 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 16:17:20,348 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 16:17:22,574 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:17:22] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:17:22,799 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:17:22] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:17:22,806 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:17:22] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:17:22,820 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:17:22] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:17:22,836 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:17:22] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:17:23,581 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:17:23] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:17:23,598 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:17:23] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:17:23,602 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:17:23] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:17:23,615 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:17:23] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:17:23,636 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:17:23] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:17:56,019 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\app.py', reloading
+2023-01-20 16:17:56,019 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\app.py', reloading
+2023-01-20 16:17:58,261 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 16:17:58,261 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 16:17:58,269 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 16:18:00,258 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 16:18:00,262 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 16:18:01,916 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:18:01] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:18:02,128 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:18:02] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:18:02,150 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:18:02] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:18:02,161 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:18:02] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:18:02,186 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:18:02] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:20:02,126 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\app.py', reloading
+2023-01-20 16:20:04,479 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 16:20:04,479 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 16:20:04,487 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 16:20:06,569 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 16:20:06,573 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 16:20:08,340 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:20:08] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:20:08,555 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:20:08] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:20:08,573 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:20:08] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:20:08,598 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:20:08] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:20:08,611 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:20:08] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:20:09,557 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:20:09] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:20:09,575 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:20:09] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:20:09,578 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:20:09] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:20:09,598 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:20:09] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:20:09,612 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:20:09] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:21:00,657 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 16:21:00,657 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 16:21:00,668 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 16:21:03,182 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 16:21:03,184 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 16:21:03,524 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:21:03] "[35m[1mGET /dataset HTTP/1.1[0m" 500 -
+2023-01-20 16:21:03,763 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:21:03] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-20 16:21:03,775 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:21:03] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-20 16:21:03,789 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:21:03] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 16:21:03,803 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 16:21:03] "[36mGET /dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-20 17:07:11,999 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 17:07:11,999 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 17:07:12,007 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 17:07:13,954 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 17:07:13,957 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 17:07:18,722 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2023-01-20 17:07:19,930 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 17:07:21,905 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 17:07:21,909 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 17:07:23,504 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:07:23] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 17:07:23,667 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:07:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 17:16:01,024 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-20 17:16:01,024 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-20 17:16:01,033 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-20 17:16:03,040 - werkzeug - WARNING -  * Debugger is active!
+2023-01-20 17:16:03,042 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-20 17:16:47,889 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:16:47] "GET / HTTP/1.1" 200 -
+2023-01-20 17:16:48,204 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:16:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 17:16:48,212 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:16:48] "[36mGET /static/images/logo_unnes.png HTTP/1.1[0m" 304 -
+2023-01-20 17:16:54,691 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:16:54] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 17:16:54,723 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:16:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 17:17:46,400 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:17:46] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 17:17:46,456 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:17:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 17:17:49,089 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:17:49] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-20 17:17:49,112 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:17:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 17:17:55,303 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:17:55] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 17:17:55,340 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:17:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 17:17:59,545 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:17:59] "GET /home HTTP/1.1" 200 -
+2023-01-20 17:17:59,564 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:17:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 17:17:59,567 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:17:59] "[36mGET /static/images/logo_unnes.png HTTP/1.1[0m" 304 -
+2023-01-20 17:26:30,387 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:26:30] "GET /upload HTTP/1.1" 200 -
+2023-01-20 17:26:30,410 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:26:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 17:26:33,472 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:26:33] "GET /upload HTTP/1.1" 200 -
+2023-01-20 17:26:33,487 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:26:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 17:26:35,970 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:26:35] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 17:26:37,562 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:26:37] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 17:26:37,592 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:26:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 17:28:14,630 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:28:14] "GET /upload HTTP/1.1" 200 -
+2023-01-20 17:28:14,658 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:28:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 17:29:12,610 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:29:12] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 17:29:12,642 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:29:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 17:35:31,461 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:35:31] "GET /dataset HTTP/1.1" 200 -
+2023-01-20 17:35:31,500 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:35:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-20 17:35:34,956 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:35:34] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-20 17:35:34,989 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2023 17:35:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-21 14:41:41,508 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\_markupbase.py', reloading
+2023-01-21 14:41:41,509 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\fixer_util.py', reloading
+2023-01-21 14:41:41,685 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\tenacity\\nap.py', reloading
+2023-01-21 14:41:42,617 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:42:04,582 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:42:04,585 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:42:04,973 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\irc.py', reloading
+2023-01-21 14:42:05,511 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\idle_test\\test_calltip_w.py', reloading
+2023-01-21 14:42:05,523 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\operations\\build\\metadata.py', reloading
+2023-01-21 14:42:05,601 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp850.py', reloading
+2023-01-21 14:42:05,748 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\zoneinfo\\_zoneinfo.py', reloading
+2023-01-21 14:42:05,749 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\tooltip.py', reloading
+2023-01-21 14:42:06,123 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:42:08,312 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:42:08,316 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:42:08,482 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\fixes\\fix_long.py', reloading
+2023-01-21 14:42:09,019 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\idle_test\\test_rpc.py', reloading
+2023-01-21 14:42:09,137 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\command\\install.py', reloading
+2023-01-21 14:42:09,194 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\quopri_codec.py', reloading
+2023-01-21 14:42:09,730 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:42:11,860 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:42:11,863 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:42:11,994 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_validations.py', reloading
+2023-01-21 14:42:12,011 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\command\\saveopts.py', reloading
+2023-01-21 14:42:12,023 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\rich\\layout.py', reloading
+2023-01-21 14:42:12,049 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\idle_test\\test_pyshell.py', reloading
+2023-01-21 14:42:12,312 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\configuration.py', reloading
+2023-01-21 14:42:12,656 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\idle_test\\tkinter_testing_utils.py', reloading
+2023-01-21 14:42:12,697 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\btm_matcher.py', reloading
+2023-01-21 14:42:12,981 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\resolution\\resolvelib\\found_candidates.py', reloading
+2023-01-21 14:42:13,305 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:42:15,383 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:42:15,385 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:42:15,484 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\webencodings\\x_user_defined.py', reloading
+2023-01-21 14:42:15,499 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\utils\\subprocess.py', reloading
+2023-01-21 14:42:15,648 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_distutils\\command\\bdist_dumb.py', reloading
+2023-01-21 14:42:15,764 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\webbrowser.py', reloading
+2023-01-21 14:42:15,951 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2023-01-21 14:42:16,118 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\bbcode.py', reloading
+2023-01-21 14:42:16,146 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\pgen2\\literals.py', reloading
+2023-01-21 14:42:16,254 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\commands\\uninstall.py', reloading
+2023-01-21 14:42:16,803 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:42:25,024 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:42:25,026 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:42:25,945 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\idle_test\\test_warning.py', reloading
+2023-01-21 14:42:26,110 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\mailcap.py', reloading
+2023-01-21 14:42:26,420 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:42:28,493 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:42:28,495 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:42:28,778 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\fixes\\fix_metaclass.py', reloading
+2023-01-21 14:42:29,227 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_distutils\\command\\build_py.py', reloading
+2023-01-21 14:42:29,544 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\autoexpand.py', reloading
+2023-01-21 14:42:29,581 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\_securetransport\\low_level.py', reloading
+2023-01-21 14:42:29,597 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_functools.py', reloading
+2023-01-21 14:42:29,927 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:42:32,011 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:42:32,013 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:42:33,714 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\pygments\\lexers\\__init__.py', reloading
+2023-01-21 14:42:33,779 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_text.py', reloading
+2023-01-21 14:42:33,797 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\curses\\ascii.py', reloading
+2023-01-21 14:42:34,095 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\fixes\\fix_input.py', reloading
+2023-01-21 14:42:34,147 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\utils\\packaging.py', reloading
+2023-01-21 14:42:34,149 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\commands\\help.py', reloading
+2023-01-21 14:42:34,212 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\distlib\\util.py', reloading
+2023-01-21 14:42:34,502 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:42:36,599 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:42:36,602 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:42:36,964 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\idle.py', reloading
+2023-01-21 14:42:37,024 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\cli\\spinners.py', reloading
+2023-01-21 14:42:37,030 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\msilib\\schema.py', reloading
+2023-01-21 14:42:37,150 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\json\\tool.py', reloading
+2023-01-21 14:42:37,152 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\iso2022_jp_2.py', reloading
+2023-01-21 14:42:37,153 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\latin_1.py', reloading
+2023-01-21 14:42:37,157 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\config.py', reloading
+2023-01-21 14:42:37,398 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\pep517\\dirtools.py', reloading
+2023-01-21 14:42:37,499 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\shift_jisx0213.py', reloading
+2023-01-21 14:42:37,518 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\resolvelib\\compat\\collections_abc.py', reloading
+2023-01-21 14:42:37,588 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\network\\utils.py', reloading
+2023-01-21 14:42:37,589 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp865.py', reloading
+2023-01-21 14:42:37,618 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\fixes\\fix_raw_input.py', reloading
+2023-01-21 14:42:37,622 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\requests\\adapters.py', reloading
+2023-01-21 14:42:38,000 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:42:40,075 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:42:40,077 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:42:40,360 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\history.py', reloading
+2023-01-21 14:42:40,370 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\heap.py', reloading
+2023-01-21 14:42:40,710 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\distlib\\wheel.py', reloading
+2023-01-21 14:42:40,803 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\idna\\intranges.py', reloading
+2023-01-21 14:42:40,844 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\colorsys.py', reloading
+2023-01-21 14:42:40,998 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\pangomarkup.py', reloading
+2023-01-21 14:42:41,035 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\utils\\direct_url_helpers.py', reloading
+2023-01-21 14:42:41,110 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\optparse.py', reloading
+2023-01-21 14:42:41,489 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:42:43,587 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:42:43,590 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:42:44,254 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\utils\\virtualenv.py', reloading
+2023-01-21 14:42:44,269 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\smtpd.py', reloading
+2023-01-21 14:42:44,375 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp861.py', reloading
+2023-01-21 14:42:44,424 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\chardet\\gb2312prober.py', reloading
+2023-01-21 14:42:44,440 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\turtledemo\\fractalcurves.py', reloading
+2023-01-21 14:42:44,604 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\ascii.py', reloading
+2023-01-21 14:42:44,610 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\idle_test\\test_pyparse.py', reloading
+2023-01-21 14:42:44,652 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\expatbuilder.py', reloading
+2023-01-21 14:42:45,020 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:42:47,106 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:42:47,110 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:42:47,542 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\unicode_utils.py', reloading
+2023-01-21 14:42:47,543 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_distutils\\py38compat.py', reloading
+2023-01-21 14:42:48,113 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\resolvelib\\resolvers.py', reloading
+2023-01-21 14:42:48,186 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\platformdirs\\version.py', reloading
+2023-01-21 14:42:48,551 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:42:50,737 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:42:50,740 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:42:51,252 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\distutils\\command\\bdist.py', reloading
+2023-01-21 14:42:51,257 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\chardet\\langbulgarianmodel.py', reloading
+2023-01-21 14:42:51,261 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\rich\\traceback.py', reloading
+2023-01-21 14:42:51,385 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\textview.py', reloading
+2023-01-21 14:42:51,594 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\chardet\\langthaimodel.py', reloading
+2023-01-21 14:42:51,700 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\idle_test\\test_zzdummy.py', reloading
+2023-01-21 14:42:51,836 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\ensurepip\\__init__.py', reloading
+2023-01-21 14:42:51,872 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\build_env.py', reloading
+2023-01-21 14:42:51,876 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_adapters.py', reloading
+2023-01-21 14:42:52,167 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:42:54,320 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:42:54,323 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:42:54,600 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\idna\\package_data.py', reloading
+2023-01-21 14:42:54,786 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\pickletools.py', reloading
+2023-01-21 14:42:54,788 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\iso8859_2.py', reloading
+2023-01-21 14:42:54,863 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\util.py', reloading
+2023-01-21 14:42:54,920 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\colorama\\win32.py', reloading
+2023-01-21 14:42:55,097 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\poplib.py', reloading
+2023-01-21 14:42:55,747 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:42:57,855 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:42:57,857 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:42:58,008 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\utils\\compatibility_tags.py', reloading
+2023-01-21 14:42:58,209 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\turtledemo\\__main__.py', reloading
+2023-01-21 14:42:58,210 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\distutils\\command\\config.py', reloading
+2023-01-21 14:42:58,564 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp273.py', reloading
+2023-01-21 14:42:58,649 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\terminal256.py', reloading
+2023-01-21 14:42:58,651 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\cli\\__init__.py', reloading
+2023-01-21 14:42:58,692 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\distutils\\unixccompiler.py', reloading
+2023-01-21 14:42:58,844 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\distutils\\core.py', reloading
+2023-01-21 14:42:59,266 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:43:01,385 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:43:01,387 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:43:01,616 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\chardet\\mbcharsetprober.py', reloading
+2023-01-21 14:43:01,741 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\rich\\region.py', reloading
+2023-01-21 14:43:01,882 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\fixes\\fix_ws_comma.py', reloading
+2023-01-21 14:43:02,170 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\terminal.py', reloading
+2023-01-21 14:43:02,231 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\cachecontrol\\caches\\redis_cache.py', reloading
+2023-01-21 14:43:02,249 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\debugobj.py', reloading
+2023-01-21 14:43:02,304 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\tty.py', reloading
+2023-01-21 14:43:02,329 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\namespaces.py', reloading
+2023-01-21 14:43:02,778 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:43:04,860 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:43:04,863 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:43:05,247 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\idle_test\\test_hyperparser.py', reloading
+2023-01-21 14:43:05,319 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\rich\\panel.py', reloading
+2023-01-21 14:43:05,390 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\tkinter\\messagebox.py', reloading
+2023-01-21 14:43:05,695 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\chardet\\cp949prober.py', reloading
+2023-01-21 14:43:05,868 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\turtledemo\\chaos.py', reloading
+2023-01-21 14:43:06,253 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:43:08,317 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:43:08,319 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:43:08,620 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\vcs\\bazaar.py', reloading
+2023-01-21 14:43:09,211 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\compileall.py', reloading
+2023-01-21 14:43:09,279 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\tenacity\\stop.py', reloading
+2023-01-21 14:43:09,418 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\pgen2\\driver.py', reloading
+2023-01-21 14:43:09,447 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\fixes\\fix_itertools_imports.py', reloading
+2023-01-21 14:43:09,450 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\tree.py', reloading
+2023-01-21 14:43:09,746 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:43:11,813 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:43:11,816 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:43:12,016 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\pep517\\wrappers.py', reloading
+2023-01-21 14:43:12,063 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\msgpack\\exceptions.py', reloading
+2023-01-21 14:43:12,486 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\macosx.py', reloading
+2023-01-21 14:43:12,487 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\rich\\columns.py', reloading
+2023-01-21 14:43:12,521 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\configdialog.py', reloading
+2023-01-21 14:43:12,522 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\shift_jis.py', reloading
+2023-01-21 14:43:12,715 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\mime\\audio.py', reloading
+2023-01-21 14:43:12,859 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\index\\package_finder.py', reloading
+2023-01-21 14:43:13,218 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:43:15,416 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:43:15,418 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-21 14:43:15,547 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_internal\\vcs\\mercurial.py', reloading
+2023-01-21 14:43:15,626 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\command\\test.py', reloading
+2023-01-21 14:43:16,840 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-21 14:43:18,798 - werkzeug - WARNING -  * Debugger is active!
+2023-01-21 14:43:18,800 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 00:34:04,433 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 00:34:04,435 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 00:56:33,499 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 00:56:33,500 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 00:56:33,580 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 00:56:35,975 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 00:56:35,978 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 00:56:36,162 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2023-01-22 00:56:37,750 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 00:56:37] "GET /dataset HTTP/1.1" 200 -
+2023-01-22 00:56:37,921 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 00:56:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 00:56:39,105 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 00:56:41,305 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 00:56:41,307 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 00:56:46,118 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\flask\\app.py', reloading
+2023-01-22 00:56:46,158 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\pandas\\core\\generic.py', reloading
+2023-01-22 00:56:46,179 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 00:56:46] "[35m[1mGET /preprocessing HTTP/1.1[0m" 500 -
+2023-01-22 00:56:46,379 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 00:56:46] "GET /preprocessing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-01-22 00:56:46,404 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 00:56:46] "GET /preprocessing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-01-22 00:56:46,429 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 00:56:46] "GET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-01-22 00:56:46,443 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 00:56:46] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 00:56:47,025 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 00:56:48,925 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 00:56:48,928 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:05:22,574 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:05:22,574 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:05:22,581 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:05:24,580 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:05:24,582 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:05:29,411 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:29] "[35m[1mGET /preprocessing HTTP/1.1[0m" 500 -
+2023-01-22 01:05:29,611 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:29] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:05:29,625 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:29] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-22 01:05:29,635 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:29] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:05:29,651 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:29] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:05:30,819 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:30] "[35m[1mGET /preprocessing HTTP/1.1[0m" 500 -
+2023-01-22 01:05:30,838 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:30] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:05:30,840 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:30] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-22 01:05:30,860 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:30] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:05:30,874 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:30] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:05:34,523 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:34] "GET / HTTP/1.1" 200 -
+2023-01-22 01:05:34,550 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:05:34,705 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:34] "[36mGET /static/images/logo_unnes.png HTTP/1.1[0m" 304 -
+2023-01-22 01:05:38,212 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:38] "[35m[1mGET /preprocessing HTTP/1.1[0m" 500 -
+2023-01-22 01:05:38,236 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:38] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:05:38,240 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:38] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-22 01:05:38,300 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:05:38] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:06:36,659 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:06:36,660 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:06:36,667 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:06:38,733 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:06:38,737 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:06:41,742 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:06:41] "[35m[1mGET /preprocessing HTTP/1.1[0m" 500 -
+2023-01-22 01:06:41,928 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:06:41] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:06:41,947 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:06:41] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-22 01:06:41,960 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:06:41] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:06:41,973 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:06:41] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:12:14,315 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:12:14,315 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:12:14,323 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:12:16,280 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:12:16,282 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:12:19,913 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:12:19] "[35m[1mGET /preprocessing HTTP/1.1[0m" 500 -
+2023-01-22 01:12:20,122 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:12:20] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:12:20,140 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:12:20] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-22 01:12:20,150 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:12:20] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:12:20,164 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:12:20] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:13:39,874 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 01:13:39,875 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 01:23:15,435 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:23:15,436 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:23:15,446 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:23:18,304 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:23:18,306 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:23:19,483 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:23:19] "[35m[1mGET /preprocessing HTTP/1.1[0m" 500 -
+2023-01-22 01:23:19,692 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:23:19] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-22 01:23:19,713 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:23:19] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:23:19,766 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:23:19] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:23:19,796 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:23:19] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:26:02,902 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 01:26:02,904 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 01:26:57,919 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:26:57,919 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:26:57,927 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:27:00,777 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:27:00,779 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:27:01,735 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:27:01] "[35m[1mGET /preprocessing HTTP/1.1[0m" 500 -
+2023-01-22 01:27:01,940 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:27:01] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:27:01,951 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:27:01] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-22 01:27:01,964 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:27:01] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:27:01,975 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:27:01] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:30:31,480 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 01:30:31,481 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 01:31:04,422 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:31:04,422 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:31:04,430 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:31:07,161 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:31:07,163 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:31:08,269 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:31:08] "[35m[1mGET /preprocessing HTTP/1.1[0m" 500 -
+2023-01-22 01:31:08,465 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:31:08] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-22 01:31:08,491 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:31:08] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:31:08,503 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:31:08] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:31:08,517 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:31:08] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:31:35,917 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\app.py', reloading
+2023-01-22 01:31:35,918 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\app.py', reloading
+2023-01-22 01:31:38,659 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:31:38,659 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:31:38,666 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:31:41,315 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:31:41,317 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:31:43,231 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\flask\\templating.py', reloading
+2023-01-22 01:31:43,243 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\jinja2\\environment.py', reloading
+2023-01-22 01:31:43,270 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:31:43] "[35m[1mGET /preprocessing HTTP/1.1[0m" 500 -
+2023-01-22 01:31:43,478 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:31:43] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-22 01:31:43,490 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:31:43] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:31:43,505 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:31:43] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:31:43,521 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:31:43] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:31:43,913 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:31:46,839 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:31:46,841 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:33:03,345 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:33:03,346 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:33:03,353 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:33:06,135 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:33:06,137 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:33:19,626 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:33:19] "[35m[1mGET /preprocessing HTTP/1.1[0m" 500 -
+2023-01-22 01:33:19,811 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:33:19] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:33:19,838 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:33:19] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-22 01:33:19,849 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:33:19] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:33:19,863 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:33:19] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:34:15,800 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:34:15,801 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:34:15,808 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:34:18,836 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:34:18,838 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:34:21,130 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:34:21] "[35m[1mGET /preprocessing HTTP/1.1[0m" 500 -
+2023-01-22 01:34:21,325 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:34:21] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-22 01:34:21,353 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:34:21] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:34:21,366 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:34:21] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:34:21,381 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:34:21] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:34:56,611 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:34:56,611 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:34:56,620 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:34:59,626 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:34:59,628 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:35:00,078 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:35:00] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 01:35:00,241 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:35:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:40:05,816 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:40:05,817 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:40:05,824 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:40:08,595 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:40:08,597 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:40:15,266 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:40:15] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 01:40:15,428 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:40:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:41:38,922 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:41:38,922 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:41:38,934 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:41:42,184 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:41:42,186 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:41:42,686 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:41:42] "[35m[1mGET /preprocessing HTTP/1.1[0m" 500 -
+2023-01-22 01:41:42,904 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:41:42] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:41:42,912 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:41:42] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-22 01:41:42,923 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:41:42] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:41:42,937 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:41:42] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:42:23,812 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:42:23,812 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:42:23,820 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:42:26,783 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:42:26,785 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:42:27,214 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:42:27] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 01:42:27,379 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:42:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:43:27,402 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 01:43:27,403 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 01:45:58,375 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:45:58,375 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:45:58,384 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:46:01,725 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:46:01,729 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:46:02,519 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:46:02] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 01:46:02,693 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:46:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:47:21,303 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\app.py', reloading
+2023-01-22 01:47:21,303 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\app.py', reloading
+2023-01-22 01:47:24,343 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:47:24,344 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:47:24,353 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:47:27,286 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:47:27,288 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:47:31,968 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:47:31] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 01:47:32,136 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:47:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:47:35,803 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:47:35] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 01:47:35,836 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:47:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:47:39,482 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:47:39] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 01:47:39,510 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:47:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:48:43,609 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:48:43,610 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:48:43,623 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:48:46,896 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:48:46,899 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:48:47,356 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:48:47] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 01:48:47,502 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:48:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:49:14,924 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 01:49:14,924 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 01:49:57,877 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:49:57,878 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:49:57,887 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:50:01,031 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:50:01,034 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:51:40,772 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:51:40,772 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:51:40,782 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:51:43,847 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:51:43,850 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:51:44,349 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:51:44] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 01:51:44,518 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:51:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:55:18,677 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:55:18,678 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:55:18,688 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:55:21,731 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:55:21,734 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:55:26,067 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:55:26] "[35m[1mGET /preprocessing HTTP/1.1[0m" 500 -
+2023-01-22 01:55:26,288 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:55:26] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:55:26,310 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:55:26] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-22 01:55:26,324 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:55:26] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:55:26,337 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:55:26] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 01:56:06,130 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\app.py', reloading
+2023-01-22 01:56:06,132 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\app.py', reloading
+2023-01-22 01:56:09,158 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:56:09,159 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:56:09,167 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:56:11,954 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:56:11,954 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:57:02,786 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 01:57:02,787 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 01:57:34,888 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 01:57:34,889 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 01:57:34,897 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:57:37,649 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:57:37,651 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:57:41,470 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2023-01-22 01:57:41,786 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:57:41] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 01:57:41,947 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 01:57:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 01:57:42,457 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:57:45,735 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:57:45,739 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:58:40,308 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_c4_5.py', reloading
+2023-01-22 01:58:41,618 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 01:58:44,647 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 01:58:44,650 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 01:59:11,551 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_c4_5.py', reloading
+2023-01-22 01:59:12,280 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:01:58,679 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:01:58,680 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:01:58,689 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:02:01,766 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:02:01,770 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:02:04,675 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:02:04] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 02:02:04,867 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:02:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:06:22,611 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 02:06:22,612 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 02:06:47,917 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:06:47,919 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:06:47,927 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:06:50,874 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:06:50,876 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:06:54,224 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:06:54] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 02:06:54,402 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:06:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:07:32,047 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:07:32,047 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:07:32,047 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:07:35,024 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:07:35,040 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:07:35,875 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:07:35] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 02:07:36,048 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:07:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:11:30,296 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:11:30,296 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:11:30,310 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:11:33,359 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:11:33,362 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:12:00,294 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:12:00] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 02:12:00,457 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:12:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:13:14,919 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 02:13:14,920 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 02:13:40,109 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:13:40,109 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:13:40,118 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:13:43,179 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:13:43,181 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:13:46,093 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:13:46] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 02:13:46,248 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:13:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:15:52,962 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 02:15:52,963 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 02:22:09,438 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:22:09,438 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:22:09,446 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:22:12,510 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:22:12,512 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:22:12,628 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\flask\\app.py', reloading
+2023-01-22 02:22:12,655 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:22:12] "[35m[1mGET /preprocessing HTTP/1.1[0m" 500 -
+2023-01-22 02:22:12,872 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:22:12] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-01-22 02:22:12,890 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:22:12] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:22:12,905 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:22:12] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 02:22:12,915 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:22:12] "[36mGET /preprocessing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-22 02:22:14,125 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:22:16,694 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:22:16,696 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:23:05,475 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 02:23:05,475 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 02:23:12,767 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:23:12,768 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:23:12,776 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:23:15,811 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:23:15,813 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:23:16,606 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:23:16] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 02:23:16,781 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:23:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:24:37,783 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 02:24:37,783 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 02:26:06,832 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:26:06,832 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:26:06,842 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:26:09,911 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:26:09,913 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:26:11,302 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:26:11] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 02:26:11,447 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:26:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:29:05,845 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:29:05,845 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:29:05,852 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:29:08,651 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:29:08,653 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:29:12,028 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:29:12] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 02:29:12,199 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:29:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:29:55,842 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:29:55,842 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:29:55,850 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:29:59,033 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:29:59,035 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:30:00,406 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:30:00] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 02:30:00,550 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:30:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:30:26,843 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:30:26,844 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:30:26,852 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:30:29,934 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:30:29,936 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:30:38,815 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:30:38] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 02:30:38,979 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:30:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:35:04,776 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:35:04,776 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:35:04,785 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:35:07,489 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:35:07,491 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:35:15,245 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:35:15] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 02:35:15,400 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:35:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:39:58,319 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:39:58,320 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:39:58,329 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:40:01,513 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:40:01,516 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:40:02,752 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:40:02] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 02:40:02,918 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:40:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:41:10,027 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 02:41:10,028 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-22 02:41:16,373 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:41:16,374 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:41:16,381 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:41:19,305 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:41:19,308 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:41:21,678 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:41:21] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 02:41:21,839 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:41:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:45:26,752 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:45:26,753 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:45:26,763 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:45:29,755 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:45:29,759 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:45:31,003 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:45:31] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 02:45:31,153 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:45:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:45:37,593 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:45:37] "GET /dataset HTTP/1.1" 200 -
+2023-01-22 02:45:37,634 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:45:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:47:55,887 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-22 02:47:55,887 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-22 02:47:55,895 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-22 02:47:59,217 - werkzeug - WARNING -  * Debugger is active!
+2023-01-22 02:47:59,220 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-22 02:48:02,480 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:48:02] "GET /dataset HTTP/1.1" 200 -
+2023-01-22 02:48:02,678 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:48:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:48:21,535 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:48:21] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-22 02:48:21,565 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2023 02:48:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-22 02:49:01,473 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 1.49, 'c2': 1.49, 'w': 0.72, 'k': 30, 'p': 3}
+2023-01-23 15:12:28,738 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-23 15:12:28,740 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-23 15:12:28,928 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-23 15:12:32,959 - werkzeug - WARNING -  * Debugger is active!
+2023-01-23 15:12:32,963 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-23 15:12:51,111 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2023-01-23 15:12:51,170 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 15:12:51] "GET / HTTP/1.1" 200 -
+2023-01-23 15:12:51,469 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 15:12:51] "GET / HTTP/1.1" 200 -
+2023-01-23 15:12:51,543 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 15:12:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-23 15:12:51,600 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 15:12:51] "[36mGET /static/images/logo_unnes.png HTTP/1.1[0m" 304 -
+2023-01-23 15:12:51,962 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 15:12:51] "GET /static/images/logo_unnes.png HTTP/1.1" 200 -
+2023-01-23 15:12:52,041 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 15:12:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-01-23 15:12:52,206 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 15:12:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-01-23 15:12:53,009 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-23 15:12:59,495 - werkzeug - WARNING -  * Debugger is active!
+2023-01-23 15:12:59,501 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-23 15:13:02,883 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 15:13:02] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-23 15:13:03,131 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 15:13:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-23 15:14:16,852 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-23 15:14:16,853 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-23 15:14:26,124 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-23 15:14:26,124 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-23 15:14:26,133 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-23 15:14:30,547 - werkzeug - WARNING -  * Debugger is active!
+2023-01-23 15:14:30,553 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-23 15:14:36,360 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 15:14:36] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-23 15:14:36,726 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 15:14:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-23 15:18:51,418 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-23 15:18:51,420 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\missing_value.py', reloading
+2023-01-23 15:29:16,659 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-23 15:29:16,659 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-23 15:29:16,668 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-23 15:29:21,039 - werkzeug - WARNING -  * Debugger is active!
+2023-01-23 15:29:21,044 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-23 15:29:25,774 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 15:29:25] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-23 15:29:25,988 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 15:29:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-23 15:47:30,055 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\selsi_fitur.py', reloading
+2023-01-23 15:47:30,058 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\selsi_fitur.py', reloading
+2023-01-23 16:12:38,065 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-23 16:12:38,066 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-23 16:12:38,081 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-23 16:12:42,111 - werkzeug - WARNING -  * Debugger is active!
+2023-01-23 16:12:42,114 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-23 17:00:51,881 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-23 17:00:51,882 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-23 17:00:52,071 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-23 17:00:55,830 - werkzeug - WARNING -  * Debugger is active!
+2023-01-23 17:00:55,833 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-23 17:03:40,240 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-23 17:03:40,240 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-23 17:03:40,254 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-23 17:06:35,873 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-23 17:06:35,874 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-23 17:06:35,882 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-23 17:06:41,058 - werkzeug - WARNING -  * Debugger is active!
+2023-01-23 17:06:41,065 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-23 17:06:42,645 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2023-01-23 17:06:46,870 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 17:06:46] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-23 17:06:47,173 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 17:06:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-23 17:06:48,395 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2023-01-23 17:06:52,863 - werkzeug - WARNING -  * Debugger is active!
+2023-01-23 17:06:52,867 - werkzeug - INFO -  * Debugger PIN: 543-362-345
+2023-01-23 17:07:01,175 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 17:07:01] "GET /preprocessing HTTP/1.1" 200 -
+2023-01-23 17:07:01,374 - werkzeug - INFO - 127.0.0.1 - - [23/Jan/2023 17:07:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-01-23 17:09:34,763 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\diabCheck\\c4_5.py', reloading
+2023-01-23 17:09:36,348 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
